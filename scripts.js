@@ -1,8 +1,8 @@
 function validateform() {
     const date = document.getElementById("date");
-    // const month = document.getElementById("month");
-    // const year = document.getElementById("year");
-    // const gen= document.getElementsByName("gender");
+    const month = document.getElementById("month");
+    const year = document.getElementById("year");
+    const gender= document.getElementsByName("gender");
     // const currentDate = new Date();
     // const currentYear = currentDate.getFullYear();
 
