@@ -1,0 +1,20 @@
+body{
+    background-color: #4a0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em
+    
+    
+    
+}
+.container{
+    color: #df0000;
+    text-align: center
+
+}
+.card{
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.gee{
+    color: black
+}
