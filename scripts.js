@@ -24,3 +24,4 @@ if(isNaN(year.value) ||year.value <1 || year.value >1970 ||year.value === null |
 }else{
     alert("continue")
 }
+ 
