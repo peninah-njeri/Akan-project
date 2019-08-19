@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,47 +11,59 @@
     <script defer src="scripts.js"></script>
 
 </head>
+
 <body>
     <div class="container">
-     <div class="card">
-         <div class="card-title bg-primary">
-           <h2 class="gee">FILL IN THE FORM BELOW</h2>
-         </div>
-         <div class="card-body">
-                <form id="form" action="index.html" method="post">
-                        <label for="date-of-birth">
-                            Date:<input type="number" id="date" name="date-of-birth" placeholder="dd" value="">
-                            <br>
-                        </label>
-                   
+        <div class="akan">
+            <h2>AKAN NAMING</h2>
+            <p>
+                The Akan people of Ghana frequently name their children after the day of the week they were born and the
+                order in which they were born. These "day names" have further meanings concerning the soul and character
+                of the person. Middle names
+                have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle
+                name.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-title bg-primary">
+                <h2 class="gee">Fill in the form below to get your Akan</h2>
+            </div>
+            <div class="card-body">
+                <form id="form" method="post">
+                    <label for="date-of-birth">
+                        Date:<input type="number" id="day" name="date-of-birth" placeholder="dd" required>
+                        <br>
+                    </label>
+
                     <div class="textbox">
                         <label for="month-of-birth">
-                            Month:<input type="number" id="month" name="month-of-birth" placeholder="mm" value="">
+                            Month:<input type="number" id="month" name="month-of-birth" placeholder="mm" required>
                             <br>
                         </label>
                     </div>
                     <div class="textbox">
                         <label for="year-of-birth">
-                            Year:<input type="number" id="year" name="year-of-birth" placeholder="yy" value="">
+                            Year:<input type="number" id="year" name="year-of-birth" placeholder="yy" required>
                             <br>
                         </label>
-                </div>
-                    <div class="gender">
-                    <h2 class="gee"> Choose Gender</h2>
-                    Female:<br>
-                    <input type="radio" name="gender" value="Female"> <br>
-                    Male:<br>
-                    <input type="radio" name="gender" value="Male"> <br>
                     </div>
-                </div>
-                <div class="card-footer bg-primary">
+                    <div class="gender">
+                        <h2 class="gee"> Choose Gender</h2>
+                        Female:<br>
+                        <input type="radio" name="gender" value="female" id="gender"> <br>
+                        Male:<br>
+                        <input type="radio" name="gender" value="male" id="gender"> <br>
+                    </div>
+            </div>
+            <div class="card-footer bg-primary">
                 <div id="button">
-                   <input class="btn" type="button" value="SUBMIT" onclick="validateform()">
+                    <input class="btn" type="button" value="SUBMIT" onclick="akanNames();calc()">
                     <br>
                 </div>
                 </form>
             </div>
 
-    </div>
+        </div>
 </body>
+
 </html>

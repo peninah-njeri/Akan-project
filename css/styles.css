@@ -1,20 +1,33 @@
 body{
-    background-color: #4a0000;
+    background-image: url(images/ghana.jpg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em
-    
-    
-    
+    font-size: 2em   
 }
 .container{
     color: #df0000;
     text-align: center
-
 }
 .card{
-margin-top: 40px;
+margin-top: 30px;
 margin-bottom: 20px;
+/* text-align: center; */
+width: 16em;
+opacity: 0.8;
+/* padding-left: 80px; */
+
+
+
 }
 .gee{
     color: black
+}
+.akan{
+    border: solid 2px black;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 30px;margin-top: 10px;
+    color: rgb(10, 10, 10);
+    font-size: 0.6em;
+    
+         
 }
